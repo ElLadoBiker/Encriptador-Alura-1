@@ -11,8 +11,9 @@
     <title>Encriptador</title>
 </head>
 <body>
-    <header>
-        <img class="logo" src="/imagenes/Logo.png" alt="Logo Alura" >
+    <div class="particulas"></div>
+    <header class="fondoCabecera">
+        <img class="logo" src="/imagenes/Tik-Tok-Metal.png" alt="Logo Alura" >
     </header>
     <main>
         <section>
@@ -21,17 +22,17 @@
             <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
            </div>
            <div class="botones">
-            <button class="btn-encriptar" onclick="btnEncriptar" >Encriptar</button>
-            <button class="btn-desencriptar">Desencriptar</button>
+            <button class="btn-encriptar" onclick="btnEncriptar()" >Encriptar</button>
+            <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
            </div>
         </section>
         <section>
             <textarea class="mensaje" cols="20" rows="10"></textarea>
            <div>
-            <button class="btn-copiar">Copiar</button>
+            <button class="btn-copiar" onclick="btncopiar()">Copiar</button>
            </div>
         </section>
     </main>
-<script src="/js/script.js"></script>    
+<script src="/js/script.js"></script>  
 </body>
 </html>
